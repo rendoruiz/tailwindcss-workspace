@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-default": "npx tailwindcss -o ./build/styles.css",
-    "build-custom": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css"
+    "build-custom": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css",
+    "build-jit": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=./*.html",
+    "build-jit-watch": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge=./*.html --watch",
+    "tw-config": "npx tailwindcss init"
   },
   "keywords": [],
   "author": "",

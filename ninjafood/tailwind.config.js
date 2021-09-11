@@ -13,6 +13,9 @@ module.exports = {
           200: '#88888E',
         }
       },
+      fontFamily: {
+        nunito: ['Nunito']
+      }
     },
   },
   variants: {

@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
     "watch-css": "npx tailwindcss build -i src/styles.css -o public/styles.css -w",
-    "tw-config": "npx tailwindcss init --full"
+    "tw-config": "npx tailwindcss init",
+    "tw-fullconfig": "npx tailwindcss init --full"
   },
   "keywords": [],
   "author": "",

@@ -32810,6 +32810,9 @@ video {
   top: 0px;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgba(226, 226, 213, var(--tw-bg-opacity));
@@ -191655,3 +191658,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
